@@ -74,6 +74,12 @@
     padding-top: 25px;
     padding-bottom: 15px;
 }
+.button {
+    transition: all .3s;
+}
+.button:hover {
+    transform: scale(1.03);
+}
 .block_content {
     position: absolute;
     display: flex;
@@ -94,6 +100,13 @@
 }
 .block_content-img {
     margin-top: 40px;
+}
+.button {
+    transition: all .3s;
+}
+.button:hover {
+    scale: 1.05;
+    transition: all, .3s;
 }
 .soon {
     height: 100%;
